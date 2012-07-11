@@ -24,13 +24,13 @@ color:#ffffff;
 	position: relative;
 }
 
-#footer {
+#footer .onecol {
 	background-color: #1d3061;
 }
 
 #logo {
 float: left;
-width: 436px;
+width: 450px;
 height: 50px;
 background: url(./logo.gif) no-repeat;
 overflow: hidden;
@@ -38,5 +38,5 @@ text-indent: -9999em;
 }
 
 #header {
-background-color: #2D4A9A;
+background: #2D4A9A;
 }
