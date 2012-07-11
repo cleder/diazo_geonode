@@ -24,6 +24,19 @@ color:#ffffff;
 	position: relative;
 }
 
+#footer {
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#help-disclaimer {
+    float: left;
+}
 #footer .onecol {
 	background-color: #1d3061;
 }
