@@ -1,17 +1,33 @@
-h1 {
-    font-size: 18pt;
-    font-weight: bold;
+#sitenav li a {
+	border:0;
+	color: #91abf0;
+	padding: 0.5em 0.8em;
+	margin: 0.75em  0.1em;
+	min-width: 0;
+    text-align: center;
+    -moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
-.headerlink {
-    color: #DDDDDD;
-    font-size: 80%;
-    text-decoration: none;
-    vertical-align: top;
+#crossbar {
+	border-top: 1px solid #3a5cc0;
+	background-color: #1d3061;
+	clear: both;
+	position: relative;
 }
 
-.align-right {
-    float: right;
-    margin: 0 10px;
-    border: dotted #ddd 1px;
+#footer {
+	background-color: #1d3061;
+}
+
+#logo {
+float: left;
+width: 158px;
+height: 50px;
+background: url(./logo.gif) no-repeat;
+overflow: hidden;
+text-indent: -9999em;
 }
