@@ -19,5 +19,10 @@
     <replace css:theme-children="#login-area" css:content-children="#login-area" />
     <replace css:theme-children="#crossbar" css:content-children="#crossbar" />
     <replace css:theme-children="#main" css:content-children="#main" />
+    <xsl:template css:select="#mapsLink" if-path="/maps">
+       <xsl:attribute name="class">
+          <xsl:value-of select="selected" />
+       </xsl:attribute>
+    </xsl:template>
 
 </rules>
