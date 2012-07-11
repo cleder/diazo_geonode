@@ -5,7 +5,15 @@
 
     <theme href="theme/theme.html" />
 
-    <drop css:content="#indices-and-tables" />
-    <replace css:theme-children="#content" css:content-children="#main" />
+    <!--Head-->
+    <copy css:content="html" css:theme="html" attributes="lang dir" />
+    <replace css:content="head base" css:theme="head base" />
+    <replace css:content="head title" css:theme="head title" />
+    <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
+
+    <!--Content-->
+    <replace css:theme-children="#login-area" css:content-children="#login-area" />
+    <replace css:theme-children="#crossbar" css:content-children="#crossbar" />
+    <replace css:theme-children="#main" css:content-children="#main" />
 
 </rules>
