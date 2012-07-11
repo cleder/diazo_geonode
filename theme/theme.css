@@ -12,6 +12,11 @@
 	text-transform: uppercase;
 }
 
+#sitenav .selected a, #sitenav a:hover {
+background-color:#426eeb;
+color:#ffffff;
+}
+
 #crossbar {
 	border-top: 1px solid #3a5cc0;
 	background-color: #1d3061;
@@ -25,9 +30,13 @@
 
 #logo {
 float: left;
-width: 158px;
+width: 436px;
 height: 50px;
 background: url(./logo.gif) no-repeat;
 overflow: hidden;
 text-indent: -9999em;
+}
+
+#header {
+background-color: #2D4A9A;
 }
