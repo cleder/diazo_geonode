@@ -13,11 +13,13 @@
 
     <!--Content-->
     <notheme if-path="/admin" />
+    <notheme if-path="view/" />
     <replace css:theme-children="#login-area" css:content-children="#login-area" />
     <replace css:theme-children="#crossbar" css:content-children="#crossbar" />
     <replace css:theme-children="#main" css:content-children="#main" />
-    <copy attributes="class" css:content="#dataLink" css:theme="#dataLink" if-path="/data"/>
-    <copy attributes="class" css:content="#mapsLink" css:theme="#mapsLink" if-path="/maps"/>
-    <copy attributes="class" css:content="#profileLink" css:theme="#profileLink" if-path="/profiles"/>
+    <copy attributes="class" css:content="#dataLink" css:theme="#placeholderSelectedLink" if-path="/data"/>
+    <copy attributes="class" css:content="#mapsLink" css:theme="#placeholderSelectedLink" if-path="/maps"/>
+    <copy attributes="class" css:content="#profileLink" css:theme="#placeholderSelectedLink" if-path="/profiles"/>
+    <drop css:theme="#placeholderSelectedLink" />
 
 </rules>
