@@ -28,6 +28,6 @@
     <copy attributes="class" css:content="#profileLink" css:theme="#placeholderSelectedLink" if-path="/profiles"/>
     <drop attributes="class" css:content="#dataLink" if-path="/data"/>
     <drop attributes="class" css:content="#dataLink" if-path="/maps"/>
-    <drop css:theme="#placeholderSelectedLink" />
+    <!--drop css:theme="#placeholderSelectedLink" /-->
 
 </rules>
