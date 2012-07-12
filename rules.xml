@@ -20,8 +20,14 @@
     <replace css:theme-children="#crossbar" css:content-children="#crossbar" />
     <replace css:theme-children="#main" css:content-children="#main" />
     <copy attributes="class" css:content="#dataLink" css:theme="#placeholderSelectedLink" if-path="/data"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/maps"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/profiles"/>
     <copy attributes="class" css:content="#mapsLink" css:theme="#placeholderSelectedLink" if-path="/maps"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/data"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/profiles"/>
     <copy attributes="class" css:content="#profileLink" css:theme="#placeholderSelectedLink" if-path="/profiles"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/data"/>
+    <drop attributes="class" css:content="#dataLink" if-path="/maps"/>
     <drop css:theme="#placeholderSelectedLink" />
 
 </rules>
