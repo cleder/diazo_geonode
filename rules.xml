@@ -19,6 +19,7 @@
     <replace css:theme-children="#login-area" css:content-children="#login-area" />
     <replace css:theme-children="#crossbar" css:content-children="#crossbar" />
     <replace css:theme-children="#main" css:content-children="#main" />
+
     <drop attributes="class" css:content="#dataLink" if-path="/maps"/>
     <drop attributes="class" css:content="#dataLink" if-path="/profiles"/>
 
