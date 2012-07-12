@@ -12,7 +12,7 @@
 	text-transform: uppercase;
 }
 
-#sitenav .selected a, #sitenav a:hover {
+#sitenav a.selected, #sitenav a:hover {
     background-color:#426eeb;
     color:#ffffff;
 }
